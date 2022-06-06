@@ -1,0 +1,21 @@
+[package]
+name = "its_ok"
+version = "0.1.0"
+authors = ["abvalatouski"]
+edition = "2021"
+description = "A macro for replacing ? with unwrap."
+license = "MIT"
+repository = "https://github.com/abvalatouski/its-ok"
+readme = "README.md"
+documentation = "https://docs.rs/its-ok"
+keywords = ["replace", "question", "unwrap"]
+
+[dependencies]
+quote = "1.0.18"
+syn = { version = "1.0.96", features = ["fold", "full", "parsing"] }
+
+[dev-dependencies]
+proc-macro2 = "1.0.39"
+
+[lib]
+proc-macro = true
