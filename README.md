@@ -3,7 +3,7 @@
 Provides `ok` and `ok_unchecked` macros for replacing `?` with `unwrap` and
 `unwrap_unchecked` calls.
 
-# Example
+## Example
 
 ```rust
 use its_ok::ok;
